@@ -40,7 +40,7 @@ const HomeSection: React.FC = () => {
               className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-gray-900 dark:text-white"
               variants={item}
             >
-             Mahammedaadil Patel
+              Mahammedaadil Patel
             </motion.h1>
             <motion.h2 
               className="text-2xl md:text-3xl font-semibold mb-6 text-gray-700 dark:text-gray-300"
@@ -52,11 +52,9 @@ const HomeSection: React.FC = () => {
               className="text-gray-600 dark:text-gray-400 max-w-xl mb-8 text-lg"
               variants={item}
             >
-              Passionate web developer with  building modern, 
-              responsive applications using React, Node.js, MongoDB, Express, 
-              MySQL.
+              Passionate web developer with building modern, responsive applications using React, Node.js, MongoDB, Express, MySQL.
             </motion.p>
-            
+
             <motion.div 
               className="flex flex-wrap gap-4 mb-8"
               variants={item}
@@ -87,12 +85,14 @@ const HomeSection: React.FC = () => {
                 Download Resume
               </motion.a>
             </motion.div>
-            
+
             <motion.div variants={item}>
               <SocialLinks />
             </motion.div>
+
+
           </div>
-          
+
           <motion.div
             className="w-full lg:w-2/5 relative"
             variants={item}
